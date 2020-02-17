@@ -17,7 +17,7 @@ function CalculateDueDate(sumbit_date, turnaround) {
         return "Not valid format please try again with valid Date format"
     }
     // If turnaround is not  number then error
-    if (isNaN(turnaround) || turnaround == null) {
+    if (isNaN(turnaround) || turnaround == null) { 
         return "The turnaround must be a number time please try again with a number"
     }
     // If the submit date is not in the specified time interval then error
